@@ -1,0 +1,2 @@
+# Aprendizados da semana
+Esta semana **aprendemos** como funciona o curso da Labenu, suas diversas tarefas no cronograma e ferramentas utilizadas ao longo do curso. Também aprendemos a usar o Terminal, Git e GitHub. Por fim, tivemos palestras sobre pedagogia e empregabilidade e uma breve introdução ao VSCode.
