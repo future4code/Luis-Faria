@@ -29,7 +29,13 @@ function retornaNumerosPares(array) {
 
 // EXERCÍCIO 05
 function retornaNumerosParesElevadosADois(array) {
- 
+
+    const apenasNumerosPares = array.filter((item) => {  
+        return item % 2 === 0
+    }).map((item) => {
+        return item ** 2
+    })
+    return apenasNumerosPares
 }
 
 // EXERCÍCIO 06
