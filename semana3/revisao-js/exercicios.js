@@ -30,16 +30,24 @@ function retornaNumerosPares(array) {
 // EXERCÍCIO 05
 function retornaNumerosParesElevadosADois(array) {
 
-    const apenasNumerosPares = array.filter((item) => {  
+    return array.filter((item) => {  
         return item % 2 === 0
     }).map((item) => {
         return item ** 2
     })
-    return apenasNumerosPares
+    
 }
 
 // EXERCÍCIO 06
 function retornaMaiorNumero(array) {
+
+    let maior = -Infinity
+    for(let numero of array) {
+       if (numero > maior) {
+           maior = numero
+       }  
+    }
+    return maior 
   
 }
 
