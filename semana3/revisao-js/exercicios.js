@@ -104,20 +104,46 @@ function classificaTriangulo(ladoA, ladoB, ladoC) {
     } else {
         return "Escaleno"
     } 
-    
-
-
 }
 
 // EXERCÍCIO 10
 function retornaSegundoMaiorESegundoMenor(array) {
-  
+
+    let maior = -Infinity
+    let menor = Infinity
+    let segundoMaior = -Infinity
+    let segundoMenor = Infinity
+
+    array.forEach((numero) => {
+        if(maior < numero) {
+            maior = numero
+        }
+        if(menor > numero) {
+            menor = numero
+        }
+    });
+    array.forEach((numero) => {
+        if(segundoMaior < numero && maior > numero) {
+            segundoMaior = numero
+        }
+        if(segundoMenor > numero && menor < numero) {
+            segundoMenor = numero
+        }
+    }) 
+    return [segundoMaior, segundoMenor]  
+
 }
 
 // EXERCÍCIO 11
 function retornaChamadaDeFilme(filme) {
    
-}
+    const filmeEscolhido = {
+    nome: 'O Diabo Veste Prada',
+    ano: 2006,
+    diretor: 'David Frankel',
+    atores: ['Meryl Streep', 'Anne Hathaway', 'Emily Blunt', 'Stanley Tucci']}
+ }
+
 
 // EXERCÍCIO 12
 function retornaPessoaAnonimizada(pessoa) {
