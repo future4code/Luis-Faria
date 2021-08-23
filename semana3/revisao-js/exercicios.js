@@ -85,10 +85,27 @@ function retornaObjetoEntreDoisNumeros(num1, num2) {
 // EXERCÍCIO 08
 function retornaNPrimeirosPares(n) {
    
+    let arrayNumerosPares = []
+
+    for(let i = 0; i < n; i++) {
+        arrayNumerosPares.push(2 * i)
+    }
+    return arrayNumerosPares
+
 }
 
 // EXERCÍCIO 09
 function classificaTriangulo(ladoA, ladoB, ladoC) {
+
+    if (ladoA === ladoB === ladoC) {
+        return "Equilátero"
+    } else if ((ladoA === ladoB && ladoA !== ladoC) || (ladoA === ladoC && ladoC !== ladoB) || (ladoB === ladoC && ladoA !== ladoA)) {
+        return "Isósceles"
+    } else {
+        return "Escaleno"
+    } 
+    
+
 
 }
 
