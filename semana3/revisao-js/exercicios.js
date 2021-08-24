@@ -174,6 +174,15 @@ function retornaPessoasNaoAutorizadas(pessoas) {
 // EXERCÍCIO 14
 function retornaContasComSaldoAtualizado(contas) {
 
+    contas.forEach((item) => {
+        item.saldoTotal = item.saldoTotal - item.compras.reduce((accummulator, value) =>
+        accummulator + value
+        , 0)
+        item.compras = []
+    })
+
+    return contas 
+    
 }
 
 // EXERCÍCIO 15A
