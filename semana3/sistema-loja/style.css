@@ -1,0 +1,48 @@
+.fundo-bege {
+    background-color: lemonchiffon;
+}
+
+.texto-header-container {
+    text-align: center;
+    font-family: Andale Mono, monospace;
+}
+
+.fotos-redes {
+    height: 40px;
+    width: 40px;
+}
+
+.fotos-redes-div {
+    text-align: center;
+}
+
+.fotos-consoles {
+    width: 400px;
+}
+
+.paginas-centraliza-div {
+    text-align: center;
+}
+
+.footer-centraliza {
+    text-align: center;
+}
+
+.nome-centraliza-div {
+    text-align: center;
+    font-size: x-large;
+}
+
+.tabela-borda {
+    border: 5px ridge #A8A8A8;
+    text-align: center;
+}
+
+.funcionarios-borda {
+    border: lightsalmon;
+}
+
+
+
+
+
