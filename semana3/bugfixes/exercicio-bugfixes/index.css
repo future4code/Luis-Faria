@@ -112,6 +112,23 @@ td button {
     color: black;
 }
 
+td button:hover {
+    background-color: #ad9b47;
+    width: 150px;
+    height: 30px;
+    border-radius: 5px;
+    color: black;
+    cursor: pointer;
+}
+
+td button:active {
+    background-color: #fadf63;
+    width: 150px;
+    height: 30px;
+    border-radius: 5px;
+    color: rgb(247, 243, 243);
+}
+
 .container-do-search {
     margin-top: 20px;
     height: 100px;
