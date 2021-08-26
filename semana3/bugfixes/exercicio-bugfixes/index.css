@@ -157,6 +157,8 @@ td button:active {
 
 .container-da-tabela {
     text-align: center;
+    display: flex;
+    justify-content: center;
 }
 
 #tamanho-das-fotos {
