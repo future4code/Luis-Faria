@@ -140,3 +140,7 @@ td button {
 .container-da-tabela {
     text-align: center;
 }
+
+#tamanho-das-fotos {
+    width: 50px;  
+}
