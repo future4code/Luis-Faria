@@ -72,6 +72,8 @@ div img {
 #container-de-descricao {
     background-color: #2274a5;
     color: white;
+    display: block;
+    padding-top: 100px;
 }
 
 #container-de-descricao>ol {
