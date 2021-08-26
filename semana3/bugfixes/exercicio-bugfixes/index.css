@@ -161,3 +161,8 @@ td button:active {
 #tamanho-das-fotos {
     width: 50px;  
 }
+
+#borda-da-caixa {
+    border: none;
+    border-bottom: solid;
+}
