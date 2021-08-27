@@ -1,0 +1,178 @@
+* {
+    margin: 0; 
+    font-family: 'Kaisei HarunoUmi', serif;   
+}
+
+/* Página Home */
+
+.introducao {
+    background-color: royalblue;
+    color: whitesmoke;
+    text-align: center;
+}
+
+#foto-luis {
+    width: 300px;
+    margin: 20px;
+    border: groove;
+}
+
+#descricao {
+    padding-bottom: 20px;
+}
+
+#lista-previa {
+    display: inline-block;
+    width: fit-content;
+    padding-bottom: 20px;
+}
+
+.projetos {
+    text-align: center;
+    padding: 20px;    
+}
+
+#foto-projeto1 {
+    padding-top: 50px;
+    width: 500px;
+}
+
+#foto-projeto2 {
+    padding-top: 50px;
+    width: 500px;
+}
+
+.habilidades {
+    background-color: royalblue;
+    color: whitesmoke;
+    text-align: center;
+    margin-top: 30px;
+    padding-top: 30px;
+}
+
+#lista-habilidades {
+    width: fit-content;
+    padding-top: 30px;
+    text-align: justify;
+    padding-bottom: 30PX;
+}
+
+.formulario {
+    text-align: center;
+    padding-top: 30px;
+}
+
+#texto-formulario{
+    padding-bottom: 30px;
+}
+
+.redes-sociais {
+    background-color: royalblue;
+    color: whitesmoke;
+    text-align: center;
+    margin-top: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+#lista-redes {
+    list-style-type: none;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    padding-left: 0px;
+    margin-top: 15px;
+}
+
+#elemento-lista{
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+.menu {
+    display: flex;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.botao-menu {
+    margin-right: 30px;
+    margin-left: 30px;
+}
+
+
+/* Página Projeto 1 */
+
+#dog {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+
+#foto-dog {
+    width: 1500px;
+    padding-top: 40px;
+}
+
+#lista-tecnologia1{
+    display: inline-block;
+    width: fit-content;
+}
+
+.menu1 {
+    display: flex;
+    background: cornflowerblue;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.botao-menu1 {
+    margin-right: 30px;
+    margin-left: 30px;
+}
+
+.introducao1 {
+    background-color: royalblue;
+    color: whitesmoke;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+/* Página Projeto 2 */
+
+#forever {
+    text-align: center;
+    padding-top: 20px;
+}
+
+#foto-forever {
+    width: 1500px;
+    padding-top: 40px;
+    border: groove;
+}
+
+#lista-tecnologia2 {
+    display: inline-block;
+    width: fit-content;
+}
+
+.menu2 {
+    display: flex;
+    background: lightskyblue;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.botao-menu2 {
+    margin-right: 30px;
+    margin-left: 30px;
+}
+
+.introducao2 {
+    background-color: royalblue;
+    color: whitesmoke;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
