@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.layout-header {
+    background-color: mediumvioletred;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 15px;
+    justify-content: space-between;
+}
+
+#div-header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    }
+
+.fotos-icones {
+    width: 20px ;
+    display: inline;
+    padding-right: 20px;
+}
+
+.fotos-setinhas {
+    width: 20px;
+    height: 20px;
+}
+
+.todas-as-barras {
+    display: flex;
+    flex-direction: column;
+    background-color: #f2d0e0 ;
+}
+
+#barra {
+    display: flex;
+    padding: 15px; 
+    justify-content: space-between;
+}
+
+.foto-bolo {
+    width: 350px;
+    height: 350px;
+}
+
+#foto-barra {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.barra-bolos {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+}
+
+#bolos {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.bolo-1 {
+    border: 1px solid darkgray;
+    -webkit-box-shadow: 5px 5px 15px 0px darkgray; 
+    box-shadow: 5px 5px 15px 0px darkgray;
+    margin: 20px;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+#descricao-bolo {
+    font-size: larger;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+    background-color: mediumvioletred;
+}
